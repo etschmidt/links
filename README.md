@@ -1,2 +1,0 @@
-# etschmidt.github.io
-Startpage
