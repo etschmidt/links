@@ -105,6 +105,31 @@
 		:-ms-input-placeholder { /* IE 10+ */
 		  color: black;
 		}
+	/* mobile */	
+    @media screen and (max-width: 480px) {
+    	.title {
+    		display: none;
+    	}
+    	.main {
+    		padding-left: 20px;
+    	}
+    	input {
+        width: 75%;
+    	}
+		}
+	/* tablet */	
+    @media screen and (max-width: 780px) and (min-width: 481px) {
+    	.title {
+    		width: 20%;
+	    	margin-left: 40%;
+    	}
+    	.main {
+    		padding-left: 70px;
+    	}
+    	input {
+        width: 30%;
+    	}
+		}
   </style>
 </head>
 
