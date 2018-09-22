@@ -90,6 +90,9 @@
       color: #AAAAAA;
       background-color: #0000AA;
     }
+    .urgent {
+      color: red;
+    }
     #time {
     	float: right;
       color: #FFFFFF;
@@ -116,6 +119,7 @@
 		:-ms-input-placeholder { /* IE 10+ */
 		  color: black;
     }
+
 	/* mobile */	
     @media screen and (max-width: 480px) {
       .title {
@@ -217,10 +221,8 @@
       <div class="col-md-2">
         <h1><span>OCR</span></h1>
         <div class="content">
-          <span styl="color:red;"><a href="#">Bain-25SEP</a><br>
-          <a href="#">EY-27SEP</a><br>
-          <a href="#">Pfizer-27SEP</a><br>
-		</span>
+          <a class="urgent" href="#">EY-27SEP</a><br>
+          <a class="urgent" href="#">Pfizer-27SEP</a><br>
           <a href="#">IBMS-28SEP</a><br>
           <a href="#">IBMC-01OCT</a><br>
           <a href="#">Adobe-01OCT</a><br>
