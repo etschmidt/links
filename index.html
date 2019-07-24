@@ -119,6 +119,9 @@
     	box-shadow: 5px 5px;
     	border: none;
     }
+    details summary::-webkit-details-marker {
+      display:none;
+    }
 		::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 		  color: black;
 		}
@@ -215,14 +218,17 @@
         <h1><span>BRN</span></h1>
         <div class="content">
           <a href="https://www.boredroomnews.com">BRN</a><br>
-          <a href="https://analytics.google.com/analytics/web">Analytics</a><br>
           <a href="https://twitter.com/boredroomnews">Twitter</a><br>
           <a href="https://www.facebook.com/TheBoredroomNews/?modal=admin_todo_tour">Facebook</a><br>
           <a href="https://boredroomnews.substack.com/publish">SubStack</a><br>
-          <a href="https://us7.admin.mailchimp.com/campaigns/">MailChimp</a><br>
-          <a href="https://www.google.com/adsense/new/u/0/pub-7503922075170260/home">AdSense</a><br>
-          <a href="https://search.google.com/search-console?resource_id=sc-domain%3Aboredroomnews.com">Search</a><br>
-          <a href="https://ads.google.com/aw/campaigns?ocid=224498297&__c=7493639153&authuser=0&__u=8676067403">G-Ads</a><br>
+            <a href="https://us7.admin.mailchimp.com/campaigns/">MailChimp</a><br>
+          <details>
+            <summary><a>Google</a></summary>  
+            <a href="https://analytics.google.com/analytics/web">Analytics</a><br>
+            <a href="https://www.google.com/adsense/new/u/0/pub-7503922075170260/home">AdSense</a><br>
+            <a href="https://search.google.com/search-console?resource_id=sc-domain%3Aboredroomnews.com">Console</a><br>
+            <a href="https://ads.google.com/aw/campaigns?ocid=224498297&__c=7493639153&authuser=0&__u=8676067403">Ads</a><br>
+          </details>
         </div>
       </div>
 
